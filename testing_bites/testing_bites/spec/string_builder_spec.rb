@@ -1,7 +1,7 @@
 require 'string_builder'
 
-RSpec.describe 'string-builder' do 
-  it "returns a string" do
+RSpec.describe 'StringBuilder class' do 
+  it "Initializes a string" do
   string_builder = StringBuilder.new
   word = string_builder.output
   expect(word).to eq ""
